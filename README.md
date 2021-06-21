@@ -1,19 +1,13 @@
-# learn-amap
+# learn-map
 
-## Project setup
-```
-npm install
-```
+## 在vue项目中使用高德API
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### 一、获取高德 key
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### 二、在public下的模板文件index.html中加入     
+### <script src="https://webapi.amap.com/maps?v=1.4.15&key=your key"></script>
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 三、在使用高德API页面style标签中导入样式
+### @import url("https://a.amap.com/jsapi_demos/static/demo-center/css/demo-center.css");
+
+### 到此处就可以正常使用了
